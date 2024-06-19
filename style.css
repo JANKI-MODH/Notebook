@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3e3e83;
+    color: white;
+}
+header{
+    height: 12vh;
+    width: 100vw;
+    box-shadow: 0px 1px 5px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header>h1{
+    font-weight: 500;
+    font-size: 40px;
+    margin: 20px;
+}
+header>i{
+    font-size: 30px;
+
+}
+.maincont{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+}
+.leftcont{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    background-color:#72a5cf;
+   
+}
+.leftcont>h1{
+    margin-left: 40px;
+    font-size: 25px;
+    font-weight: 500;
+
+}
+.leftcont>form{
+    height: 88%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding-left: 40px;
+}
+.leftcont>form>input{
+    width: 75%;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+
+}
+.leftcont>form>input::placeholder{
+    font-size: 20px;
+    /* color: rgb(4,4,48); */
+}
+.leftcont>form>textarea{
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+button{
+width: 150px;
+height: 35px;
+font-size: 18px;
+background-color: #3e3e83;
+border: none;
+color: white;
+border-radius: 5px;
+
+}
+button:hover{
+    background-color: lightskyblue;
+    border: 1px solid #3e3e83;
+    color: black;
+}
+.right-div{
+    height: 100%;
+    width: 65%;
+    background-color: #b5dcf3;
+    color: black;
+}
+
+.right-div{
+    width: 65%;
+    height: 100%;
+    padding: 30px;
+}
+.right-div>div{
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+    background-color: rgb(213, 235, 253);
+    color: black;
+}
+.right-div>div>h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+.right-div>div>div>p{
+    font-size: 17px;
+}
